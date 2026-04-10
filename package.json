@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "CN Beyonders Employee Directory - Team Profile Management System",
   "main": "index.js",
-  "homepage": "https://CloudNexus-Org.github.io/KNOW-YOUR-TEAM-ETERNALS",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite",
-    "serve": "vite preview --port 5174",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "serve": "vite preview --port 5174"
   },
   "keywords": [
     "employee",
@@ -34,7 +31,6 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.27",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.2",
     "vite": "^4.2.0"
